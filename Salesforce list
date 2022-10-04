@@ -1,1 +1,21 @@
+public class listcreation {
+    public static void  demo()
+    {
+        list<string> ab = new list<string> ();
+        ab.add('balu');
+        ab.add('merlin');
+        ab.add('balu');
+         
+    for(string str: ab){
+        system.debug(str);
+    }
+        list<account> ac = new list<account>();
+        account a = new account();
+        a.Name = 'hpy anniversary';
+        ac.add(a);
+        system.debug(ac);
+    }
+    }      
+    
+    
 
