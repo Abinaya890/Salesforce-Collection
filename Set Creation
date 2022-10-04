@@ -1,0 +1,9 @@
+public class Setcreation {
+    public static void sample(){
+        set<integer> ab = new set<integer> ();
+        ab.add(100);
+        ab.add(200);
+        ab.add(100);
+        system.debug('count =' + ab.size());
+    }
+}
