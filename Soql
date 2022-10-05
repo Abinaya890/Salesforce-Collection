@@ -1,1 +1,8 @@
 
+public class sqlcreate {
+    public static void sample(String str){
+        String st= str+'%';
+        list<account> acc =[SELECT Id, Name, AnnualRevenue FROM  Account where Name LIKE : st ];
+        system.debug(acc);
+    }
+}
