@@ -1,0 +1,19 @@
+public class Mapcreation {
+    public static void sample(){
+        map<Integer,String> nmap = new map<Integer,String>();
+        nmap.put(25,'abi');
+        nmap.put(12,'msg');
+        nmap.put(5,'merlin');
+       // system.debug(nmap.keyset());
+        //system.debug(nmap.values());
+         //system.debug(nmap.get(25));
+        for(Integer n : nmap.keyset()){
+            system.Debug(n);
+        }
+        for(String  m : nmap.values()){
+            system.Debug(m);
+            
+            
+        }
+    }
+}
