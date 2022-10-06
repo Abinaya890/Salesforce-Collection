@@ -11,7 +11,8 @@ public class Mapcreation {
             system.Debug(n);
         }
         
-            
+         for(String  m : nmap.values()){
+            system.Debug(m);   
             
         }
     }
