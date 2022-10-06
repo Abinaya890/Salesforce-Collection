@@ -10,8 +10,7 @@ public class Mapcreation {
         for(Integer n : nmap.keyset()){
             system.Debug(n);
         }
-        for(String  m : nmap.values()){
-            system.Debug(m);
+        
             
             
         }
